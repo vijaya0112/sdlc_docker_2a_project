@@ -4,7 +4,7 @@ import tornado.web
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("Hello, world\n")
+        self.write("Hi all , trying the 2b project in docker. Hope it works\n")
         print(self.request)
 
 
